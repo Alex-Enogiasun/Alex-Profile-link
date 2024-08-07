@@ -1,0 +1,83 @@
+body{
+    background: rgb(10, 10, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+img{
+    margin-left: 25%;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.wrapper{
+    width: 400px;
+    height: 42em;
+    justify-content: center;
+    align-items: center;
+   border-radius: 10px;
+    background-color: rgba(81, 83, 83, 0.376);
+
+}
+
+
+button{
+    color: white;
+    background-color:  rgba(163, 168, 168, 0.376);
+    border: none;
+   border-radius: 8px;
+    width: 70%;
+    padding: 10px;
+    margin:5px ;
+    margin-left: 15%;
+}
+
+button:hover{
+    font-size: larger;
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color: blue;
+}
+
+#my-name{
+    color: white;
+    margin-left: 25%;
+}
+
+#my-location{
+    color: lawngreen;
+    margin-left: 32%;
+    font-size: 1.2em;
+}
+
+#about-me{
+    color: rgb(200, 189, 175);
+    text-align: center;
+}
